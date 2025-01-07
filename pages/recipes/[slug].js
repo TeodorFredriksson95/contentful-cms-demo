@@ -25,7 +25,7 @@ export const getStaticPaths = async () => {
     fallback: false,
   };
 };
-
+const test = 0;
 export async function getStaticProps({ params }) {
   const { items } = await client.getEntries({
     content_type: "recipe",
