@@ -47,6 +47,7 @@ export default function RecipeDetails({ recipe }) {
   return (
     <div>
       <div className={styles.banner}>
+        <p>just adding some testing for vercel</p>
         <Image src={url} width={1200} height={500} alt={title} />
         <h2 className={styles.heading}>{title}</h2>
       </div>
