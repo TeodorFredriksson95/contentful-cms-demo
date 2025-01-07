@@ -8,7 +8,6 @@ export async function getStaticProps() {
     environment: "master", // defaults to 'master' if not set
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
   });
-  const test = 0;
   try {
     const res = await client.getEntries({ content_type: "recipe" });
     return {
