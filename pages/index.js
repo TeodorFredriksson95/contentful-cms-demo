@@ -21,8 +21,8 @@ export async function getStaticProps() {
     return {
       props: {
         recipes: null,
-        revalidate: 1,
       },
+      revalidate: 1,
     };
   }
 }
